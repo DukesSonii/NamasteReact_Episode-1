@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+      <h1>dvvfvb</h1>
+    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- crossorigin in the script tags serves a specific purpose related to loading external scripts securely -->
+    <!-- Why crossorigin Attribute is Used?? crossorigin attribute is used when loading resources from a different origin/domain to ensure cross-origin integrity and security -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- The crossorigin attribute is typically used for loading external scripts from a different origin/domain, and it's 
+    not necessary for locally hosted or same-origin scripts like App.js in your case. -->
+    <script src="./App.js"></script>
+  </body>
+</html>
+
+<!-- Cross-Origin Impact
+Impact on Script Loading:
+
+When a script tag has the crossorigin attribute, the browser will enforce a CORS (Cross-Origin Resource Sharing) check.
+This attribute is particularly relevant when the script is being fetched from a different domain than the one hosting the HTML document.
+Security Considerations:
+
+When the crossorigin attribute is present, the server providing the script resource must include the appropriate CORS headers in the response
+ to allow the script to be fetched and used securely. -->
